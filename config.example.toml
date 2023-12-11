@@ -1,0 +1,22 @@
+# Settings 
+[Settings]
+ExcludeInputFiles = [ "index.html", "search.html" ]
+
+# Table translations
+
+[TablesT] # Table name do NOT change
+Field = "Поле"
+Type = "Тип"
+Decription = "Описание"
+
+# Entity translations
+
+[EntitiesT] # Table name do NOT change
+Message = "Сообщение"
+Service = "Сервис"
+
+# Request/Response translations
+
+[ReqResT] # Table name do NOT change
+Request = "Запрос"
+Response = "Ответ"
