@@ -323,16 +323,19 @@ func main() {
   }
 
   // Get config file path
-  configFilePath, err := resolveFilePath(formatter.configPath)
-  if err != nil {
-    panic(err)
-  }
+  // configFilePath, err := resolveFilePath(formatter.configPath)
+  // if err != nil {
+  //   panic(err)
+  // }
 
 
   // Try to read and decode CONFIG file
-  if _, err := os.Stat(configFilePath); !os.IsNotExist(err) {
+  cPath, err := filepath.Glob("config.toml")
+  // if _, err := os.Stat(configFilePath); !os.IsNotExist(err) {
 
-    fileContents, err := os.ReadFile(configFilePath)
+  if _, err := os.Stat(cPath[0]); !os.IsNotExist(err) {
+    // fileContents, err := os.ReadFile(configFilePath)
+    fileContents, err := os.ReadFile(cPath[0])
     if err != nil {
       fmt.Printf("Error while reading config.toml file. Error - %s. Continue working with default setting.", err)
     } else {
