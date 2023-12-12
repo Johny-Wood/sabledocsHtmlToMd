@@ -16,14 +16,14 @@ Create config.toml where the package will be executed (where your sabledocs are)
 
 #### [Settings] ExcludeInputFiles
 
-List the files you don't want to be converted to md files.  For instance, sabledocs builds index.html and search.html that you won't need to be converted. You can easily ecxlude them from convertation:
+List the files you don't want to be converted to md files.  For instance, sabledocs builds index.html and search.html that you won't need to be converted. You can easily ecxlude them from conversion:
 ```
 [Settings]
 ExcludeInputFiles = [ "index.html", "search.html" ]
 ```
 
 #### [Translation.TablesT]
-Your tranlations for table headers (Field, Type, Description).
+Your translations for table headers (Field, Type, Description).
 ```
 [Translation.TablesT]
 Field = "Поле"
@@ -32,7 +32,7 @@ Description = "Описание"
 ```
 
 #### [Translation.ReqResT]
-Your tranlations for request & response words in methods (Request, Response).
+Your translations for request & response words in methods (Request, Response).
 ```
 [Translation.ReqResT]
 Request = "Запрос"
