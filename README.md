@@ -5,9 +5,9 @@ go get github.com/Johny-Wood/sabledocsHtmlToMd
 ## Usage
 
 In the folder with sabledocs output files, run:
-
+```
 sabledocsHtmlToMd
-
+```
 ## Configuration
 
 Create config.toml where the package will be executed (where your sabledocs are). Use config.example.toml as an example for configuring your sabledocsHtmlToMd.
