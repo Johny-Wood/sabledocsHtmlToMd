@@ -1,7 +1,7 @@
 ## Installation
-
+```
 go get github.com/Johny-Wood/sabledocsHtmlToMd
-
+```
 ## Usage
 
 In the folder with sabledocs output files, run:
