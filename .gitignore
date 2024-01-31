@@ -1,3 +1,4 @@
 config.toml
 *.html
 *.md
+.DS_Store
